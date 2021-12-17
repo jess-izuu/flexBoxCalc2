@@ -16,11 +16,11 @@ main {
 }
 
 .calculator {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 550px;
   background-color: maroon;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 8px 8px 8px black;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -29,7 +29,7 @@ main {
 }
 
 .calcRow {
-  height: 40px;
+  height: 55px;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -39,14 +39,31 @@ main {
 
 .display {
   background-color: black;
+  height: 80px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-right: 20px;
 }
 
 .button {
-  width: 33px;
-  height: 33px;
+  width: 55px;
+  height: 55px;
   background-color: white;
   border-radius: 4px;
-  margin: 2px;
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+
+.fas {
+  font-size: 30px;
 }
 
 .long {
@@ -56,7 +73,6 @@ main {
 .container1,
 .container2 {
   border: 1px solid black;
-  background-color: yellow;
   height: 100vh;
   flex: 1;
   display: flex;
@@ -66,8 +82,10 @@ main {
 
 .container1 {
   flex: 1;
+  background-color: rgb(201, 198, 198);
 }
 
 .container2 {
   flex: 2;
+  background-image: url('https://images.unsplash.com/photo-1632207190829-a97e41017175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1270&h=1000&q=80');
 }
