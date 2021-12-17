@@ -46,4 +46,9 @@ main {
   height: 33px;
   background-color: white;
   border-radius: 4px;
+  margin: 2px;
+}
+
+.long {
+  flex: 2;
 }
