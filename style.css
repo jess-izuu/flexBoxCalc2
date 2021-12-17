@@ -1,5 +1,24 @@
-.boxy {
-  border: 10px solid black;
-  padding: 20px 40px;
-  margin: 100px;
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  background-color: gold;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* horizontal axis */
+  flex-direction: row;
+  justify-content: center;
+  /* perpendicular (vertical) axis */
+  align-items: center;
+}
+
+.calculator {
+  width: 200px;
+  height: 300px;
+  background-color: maroon;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
 }
