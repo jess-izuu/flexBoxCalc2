@@ -52,3 +52,22 @@ main {
 .long {
   flex: 2;
 }
+
+.container1,
+.container2 {
+  border: 1px solid black;
+  background-color: yellow;
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  flex: 1;
+}
+
+.container2 {
+  flex: 2;
+}
